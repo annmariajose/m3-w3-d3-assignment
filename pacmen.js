@@ -13,7 +13,6 @@ function makePac() {
   // returns an object with random values scaled {x: 33, y: 21}
   let velocity = setToRandom(10); // {x:?, y:?}
   let position = setToRandom(200);
-  let prevPosition = position;
   let timer = 1;
 
   // Add image to div id = game
@@ -35,7 +34,6 @@ function makePac() {
     position,
     velocity,
     newimg,
-    prevPosition,
     timer
   };
 }
